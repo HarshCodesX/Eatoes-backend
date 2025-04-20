@@ -20,6 +20,8 @@ app.get("/", (req, res) => {
     res.send("API is running...")
 })
 
+// console.log("working")
+
 connectDB()
 .then(() => {
     console.log("Database connection established...");
