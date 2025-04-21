@@ -8,8 +8,7 @@ const menuRoutes = require("./routes/menuRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 
 app.use(cors({
-    "origin": ["http://localhost:5173", 'https://eatoes-frontend.onrender.com/'],
-    "method": ["GET", "POST", "PUT", "PATCH"],
+    origin: ["http://localhost:5173", 'https://eatoes-frontend.onrender.com/'],
     credentials: true
 }))
 app.use(express.json())
